@@ -269,7 +269,7 @@
             <key code="11" output="§"/>
             <key code="12" output="¤"/>
             <key code="13" output="¥"/>
-            <key code="14" output="¢"/>
+            <key code="14" output="€"/>
             <key code="15" output="®"/>
             <key code="16" output="☐"/>
             <key code="17" output="™"/>
@@ -692,7 +692,7 @@
             <key code="11" output="§"/>
             <key code="12" output="¤"/>
             <key code="13" output="¥"/>
-            <key code="14" output="¢"/>
+            <key code="14" output="€"/>
             <key code="15" output="®"/>
             <key code="16" output="☐"/>
             <key code="17" output="™"/>
