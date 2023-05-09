@@ -19,3 +19,45 @@ The repository contains both the macOS `.keylayout` file and Windows `.klc` file
 3. From 'Project' > select 'Build DLL and Setup package'
 4. Run the `setup.exe` file from the location it got created to
 5. Select the new keyboard layout from Windows Settings
+
+## All symbols from all layers
+
+### No modifiers
+
+```
+`1234567890+\
+qwertyuiop[]
+asdfghjklöä'
+<zxcvbnm,.-
+```
+(Pressing space types ` `, the normal `U+0020 SPACE (SP)` character)
+
+### Shift
+
+```
+~!"#^%&/()=?|
+QWERTYUIOP{}
+ASDFGHJKLÖÄ*
+>ZXCVBNM;:_
+```
+(Pressing space types ` `, the normal `U+0020 SPACE (SP)` character)
+
+### Option (AltGr on Windows)
+
+```
+´¡@£$€¼½¾≠≈¿¬
+¤¥€®™☐ü↔︎Ωπå“
+√∑∆☒☑︎←↓↑→œæ‘
+≤«‹©∫§№µ′…–
+```
+(Pressing space doesn't type anything, to avoid mistakenly entering non-standard whitespace)
+
+### Option + Shift (AltGr + Shift on Windows)
+
+```
+ ¹²³⁴⁵⁶⁷⁸⁹⁰±¦
+⋅×÷‰† Ü °¶Å”
+ ß       ŒÆ’
+≥»›     ″ —
+```
+(Pressing space types ` `, the `U+00A0 NO-BREAK SPACE (NBSP)` character)
