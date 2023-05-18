@@ -21,8 +21,8 @@ The repository contains both the macOS `.keylayout` file and Windows `.klc` file
 ## Windows installation
 
 1. Download [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134) and open it
-2. From 'Open' > open the `Finner.klc` file
-3. From 'Project' > select 'Build DLL and Setup package'
+2. From 'File' > 'Load Source File...' open the `Finner.klc` file
+3. From 'Project' > select 'Build DLL and Setup package', ignore the verification warnings
 4. Run the `setup.exe` file from the location it got created to
 5. Select the new keyboard layout from Windows Settings
 
