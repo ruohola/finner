@@ -4,8 +4,9 @@ Finner is designed to be an enhanced Finnish keyboard layout. The keylayout was
 designed to be very easy to learn and it keeps changes to the standard Finnish
 layout as minimal as possible, while providing much better usability. The main
 benefit over the standard Finnish layout is the minimized usage of Option (or
-AltGr) when typing ASCII characters, and the main benefit over the US layout is
-easy access to the very commonly used `Ä` and `Ö`.
+AltGr) and not needing to use dead keys when typing ASCII characters, and the
+main benefit over the US layout is easy access to the very commonly used `Ä`
+and `Ö`.
 
 **Basic layers of the keylayout, with changes compared to the standard Finnish layout highlighted**
 ![Image of layout](https://raw.githubusercontent.com/ruohola/finner/master/finner.png)
