@@ -16,7 +16,7 @@ The repository contains both the macOS `.keylayout` file and Windows `.klc` file
 ## macOS installation
 
 1. Move or symlink `Finner.keylayout` into `/Library/Keyboard Layouts/`
-2. Restart your computer, logging out is not enough
+2. Log out and log back in
 3. Select the new keyboard layout from System Settings
 
 ## Windows installation
