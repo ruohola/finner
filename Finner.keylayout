@@ -4,16 +4,7 @@
 <!--Last edited by Ukelele version 359 on 2023-06-17 at 20:06 (EEST)-->
 <keyboard group="126" id="-30432" name="Finner" maxout="2">
     <layouts>
-        <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
-        <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="21" last="23" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="30" last="30" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="33" last="33" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="36" last="36" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="194" last="194" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="197" last="197" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="200" last="201" mapSet="JIS" modifiers="Modifiers"/>
-        <layout first="206" last="207" mapSet="JIS" modifiers="Modifiers"/>
+        <layout first="0" last="17" mapSet="ISO" modifiers="Modifiers"/>
     </layouts>
     <modifierMap id="Modifiers" defaultIndex="0">
         <keyMapSelect mapIndex="0">
@@ -41,7 +32,7 @@
             <modifier keys="anyShift caps command?"/>
         </keyMapSelect>
     </modifierMap>
-    <keyMapSet id="ANSI">
+    <keyMapSet id="ISO">
         <keyMap index="0">
             <key code="0" output="a"/>
             <key code="1" output="s"/>
@@ -871,32 +862,6 @@
             <key code="124" output="&#x001D;"/>
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
-        </keyMap>
-    </keyMapSet>
-    <keyMapSet id="JIS">
-        <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
-            <key code="512" output=""/>
-        </keyMap>
-        <keyMap index="7" baseMapSet="ANSI" baseIndex="7">
-            <key code="512" output=""/>
         </keyMap>
     </keyMapSet>
 </keyboard>
