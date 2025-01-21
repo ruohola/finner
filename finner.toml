@@ -1,0 +1,29 @@
+# kalamine keyboard layout descriptor
+name = "finner"                                                                        # full layout name, displayed in the keyboard settings
+name8 = "finner"                                                                       # short Windows filename: no spaces, no special chars
+locale = "fi"                                                                          # locale/language id
+variant = "custom"                                                                     # layout variant id
+author = "Eero Ruohola"                                                                # author name
+description = "Combines the best parts of the US keyboard layout into the Finnish one"
+url = "https://github.com/ruohola/finner"
+version = "1.2.1"
+geometry = "ISO"
+
+full = '''
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
+│ ~   │ ! ¹ │ " ² │ # ³ │ ^ ⁴ │ % ⁵ │ & ⁶ │ / ⁷ │ ( ⁸ │ ) ⁹ │ = ⁰ │ ? ± │ | ¦ ┃          ┃
+│ ` ´ │ 1 ¡ │ 2 @ │ 3 £ │ 4 $ │ 5 € │ 6 ¼ │ 7 ½ │ 8 ¾ │ 9 ≠ │ 0 ≈ │ + ¿ │ \ ¬ ┃ ⌫        ┃
+┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
+┃        ┃ Q ⋅ │ W × │ E ÷ │ R ‰ │ T † │ Y   │ U   │ I   │ O ° │ P ¶ │ {   │ } ” ┃       ┃
+┃ ↹      ┃   ¤ │   ¥ │   € │   ® │   ™ │   ☐ │   ü │   ↔︎ │   Ω │   π │ [ å │ ] “ ┃       ┃
+┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
+┃         ┃ A   │ S ß │ D   │ F   │ G   │ H   │ J   │ K   │ L ⇒ │ Ö   │ Ä   │ * ’ ┃      ┃
+┃ ⇬       ┃   √ │   ∑ │   ∆ │   ☒ │   ☑︎ │   ← │   ↓ │   ↑ │   → │   œ │   æ │ ' ‘ ┃      ┃
+┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
+┃      ┃ > ≥ │ Z » │ X › │ C   │ V   │ B • │ N   │ M   │ ; ″ │ :   │ _ — ┃               ┃
+┃ ⇧    ┃ < ≤ │   « │   ‹ │   © │   ∫ │   § │   № │   µ │ , ′ │ . … │ - – ┃ ⇧             ┃
+┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
+┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
+┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
+┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
+'''
