@@ -9,7 +9,7 @@ main benefit over the US layout is easy access to the very commonly used `Ä`
 and `Ö`.
 
 **Basic layers of the keylayout, with changes compared to the standard Finnish layout highlighted**
-![Image of layout](https://raw.githubusercontent.com/ruohola/finner/master/finner.png)
+![Image of layout](./images/finner.png)
 
 The repository contains both the macOS `.keylayout` file and Windows `.klc` file.
 
@@ -18,6 +18,11 @@ The repository contains both the macOS `.keylayout` file and Windows `.klc` file
 1. Move or symlink `Finner.keylayout` into `/Library/Keyboard Layouts/`
 2. Log out and log back in
 3. Select the new keyboard layout from System Settings
+
+(You will see this warning message about the 'Installed Input Source', but, as
+you can [and should] verify from the plaintext `.keylayout` file, there is
+absolutely no executable code in it which could do something like this.)
+![Unwarranted warning in macOS settings](./images/mac_settings.png)
 
 ## Windows installation
 
